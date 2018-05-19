@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00000f">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="165dp"
+        android:layout_height="129dp"
+        android:src="@drawable/gifsmile"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/playerScore"
+            android:textSize="30dp"
+            android:id="@+id/playerScoreText"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="000"
+            android:textSize="50dp"
+            android:id="@+id/playerScoreCount"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+
+
+
+    <!--
+
+    <TextView
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/highScore"
+                android:textSize="20dp"
+                android:id="@+id/highScore"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:layout_marginRight="5dp"
+                />
+
+            <TextView
+                android:textColor="#ffffff"
+                android:paddingRight="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="000"
+                android:textSize="20dp"
+                android:id="@+id/highScoreCounter"
+                android:layout_gravity="left"
+                android:layout_weight="1"/>
+
+    -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/playAgain"
+            android:id="@+id/play"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:background="#00000f"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Exit"
+            android:id="@+id/exit"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:background="#00000f"
+            android:layout_weight="1.2"/>
+    </LinearLayout>
+
+
+</LinearLayout>

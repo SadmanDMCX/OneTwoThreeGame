@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+
+    <TextView
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Title"
+        android:textSize="25dp"
+        android:id="@+id/dialogTitle"
+        android:layout_gravity="left" />
+
+    <TextView
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_below="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Are u Sure"
+        android:textSize="20dp"
+        android:id="@+id/dialogText"
+        android:layout_gravity="left" />
+
+    <Button
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="no"
+        android:layout_below="@+id/dialogText"
+        android:id="@+id/no"
+        android:textColor="#00b3a0"
+        android:textStyle="bold"
+        android:background="#ffffff"/>
+
+    <Button
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cancel"
+        android:layout_below="@+id/dialogText"
+        android:layout_toRightOf="@+id/no"
+        android:id="@+id/cancel"
+        android:textColor="#00b3a0"
+        android:textStyle="bold|italic"
+        android:background="#ffffff"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="yes"
+        android:layout_below="@+id/dialogText"
+        android:layout_toRightOf="@+id/cancel"
+        android:textStyle="bold|italic"
+        android:textColor="#00b3a0"
+        android:layout_margin="5dp"
+        android:background="#ffffff"
+        android:id="@+id/yes" />
+
+
+</RelativeLayout>

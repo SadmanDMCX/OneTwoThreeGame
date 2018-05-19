@@ -1,0 +1,225 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00000f"
+    tools:context="main.ott.game.sadmandmcx.com.onetwothree.StyleFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/stylesText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Styles"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="50sp"
+            android:layout_margin="20dp"
+            android:shadowColor="#ffffff"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="24"
+            />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:id="@+id/singleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Single"
+                android:gravity="center_horizontal"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_margin="20dp"
+                android:shadowColor="#ffffff"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="24"
+                />
+
+
+            <RadioButton
+                android:id="@+id/radioRed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Red"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:shadowColor="#ffffff"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="24"
+                android:drawableRight="@drawable/red"
+                android:layout_margin="5dp"
+                />
+
+            <RadioButton
+                android:id="@+id/radioAqua"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Aqua"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:shadowColor="#ffffff"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="24"
+                android:drawableRight="@drawable/aqua"
+                android:layout_margin="5dp"
+                />
+
+            <RadioButton
+                android:id="@+id/radioBlue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Blue"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:shadowColor="#ffffff"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="24"
+                android:drawableRight="@drawable/blue"
+                android:layout_margin="5dp"
+                />
+
+            <RadioButton
+                android:id="@+id/radioPurple"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Purple"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:shadowColor="#ffffff"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="24"
+                android:drawableRight="@drawable/purple"
+                android:layout_margin="5dp"
+                />
+
+            <RadioButton
+                android:id="@+id/radioYellow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Yellow"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:shadowColor="#ffffff"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="24"
+                android:drawableRight="@drawable/yellow"
+                android:layout_margin="5dp"
+                />
+
+            <RadioButton
+                android:id="@+id/radioGray"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Gray"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:shadowColor="#ffffff"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="24"
+                android:drawableRight="@drawable/gray"
+                android:layout_margin="5dp"
+                />
+
+            <TextView
+                android:id="@+id/multiText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Multi"
+                android:gravity="center_horizontal"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_margin="20dp"
+                android:shadowColor="#ffffff"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="24"
+                />
+
+            <RadioButton
+                android:id="@+id/radioGraRisk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Gradiant "
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:shadowColor="#ffffff"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="24"
+                android:layout_margin="5dp"
+                />
+
+            <RadioButton
+                android:id="@+id/radioGra2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Gradiant Blue"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:shadowColor="#ffffff"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="24"
+                android:layout_margin="5dp"
+                />
+
+            <RadioButton
+                android:id="@+id/radioGra3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Gradiant Mantle"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:shadowColor="#ffffff"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="24"
+                android:layout_margin="5dp"
+                />
+            <RadioButton
+                android:id="@+id/radioGra4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Gradiant Calm Darya"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:shadowColor="#ffffff"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="24"
+                android:layout_margin="5dp"
+                />
+            <RadioButton
+                android:id="@+id/radioGra5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Gradiant Dracula"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:shadowColor="#ffffff"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="24"
+                android:layout_margin="5dp"/>
+        </RadioGroup>
+
+
+    </LinearLayout>
+</ScrollView>

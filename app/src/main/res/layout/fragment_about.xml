@@ -1,0 +1,155 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000f"
+    android:animateLayoutChanges="true"
+    tools:context="main.ott.game.sadmandmcx.com.onetwothree.AboutFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            android:textSize="60sp"
+            android:text="Cradits"
+            android:id="@+id/cradits"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            android:textSize="40sp"
+            android:layout_below="@+id/cradits"
+            android:text="Production"
+            android:id="@+id/production"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="50dp"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/dmcx"
+            android:layout_below="@+id/production"
+            android:id="@+id/productionImage"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            android:textSize="45sp"
+            android:layout_below="@+id/productionImage"
+            android:text="1+2=3(Redux)"
+            android:id="@+id/gameName"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:layout_below="@+id/designer"
+            android:text="v1.5.3x"
+            android:id="@+id/version"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:layout_below="@+id/productionImage"
+            android:text="Devoloper"
+            android:id="@+id/devoloper"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:layout_below="@+id/devoloper"
+            android:text="SadmanDMCX"
+            android:id="@+id/name"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:layout_below="@+id/name"
+            android:text="Graphics Designer"
+            android:id="@+id/graphics"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:layout_below="@+id/graphics"
+            android:text="SadmanDMCX"
+            android:id="@+id/designer"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            />
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_below="@+id/version"
+            android:text="Thanks for playing."
+            android:id="@+id/thanks"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="50dp"
+            />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

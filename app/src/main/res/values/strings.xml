@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">OneTwoThree</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- DIALOG -->
+    <string name="playerScore">Your Score</string>
+    <string name="highScore">High Score: </string>
+    <string name="playAgain">Play Again</string>
+    <string name="Exit">Main Menu</string>
+</resources>
